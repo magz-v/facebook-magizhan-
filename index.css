@@ -1,0 +1,115 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Poppins', sans-serif;;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:100vh;
+    background-color: #e6e8eb;
+    align-items: center;
+    
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white !important;
+    width: 390px;
+    padding:10px;
+    margin:15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px grey;
+}
+
+input{
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px 15px 10px 15px;
+    padding-left: 10px;
+    border: 2px solid #e6e8eb;
+}
+.line{
+    height: 2px;
+    background-color: #e6e8eb;
+    border-width: 1px;
+    margin: 15px;
+}
+.login{
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 15px 15px 10px 15px;
+    border-width: 0px;
+    background-color: rgb(11, 93, 216);
+    color: white;
+    
+
+}
+
+.container>div{
+    flex:1;
+}
+
+.Forgot{
+    text-align: center;
+    margin:10px;
+    text-decoration: none;
+    color:  rgb(11, 93, 216); 
+}
+
+.Forgot:hover{
+    text-decoration: underline;
+}
+.create{
+   
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+    font-weight: 700;
+    
+}
+
+.create:hover{
+    text-decoration: underline;
+}
+
+
+.new{
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 15px 15px 15px 15px;
+    border-width: 0px;
+    background-color: rgb(17, 173, 17);
+    color: white;
+    align-self: center;
+    width: 50%;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h1{
+    color: rgb(11, 93, 216);
+    font-size: 60px;
+    font-weight: 1200;
+    margin-left: 100px;
+}
+p{
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.right{
+    margin-left: 40px;
+}
